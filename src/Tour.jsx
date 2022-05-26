@@ -1,9 +1,13 @@
 import React from "react";
 
-function Tour() {
+function Tour({ name, price, image, info }) {
+  // console.log(name, price);
   return (
-    <div>
-      <h1>Tour info</h1>
+    <div className="tour-card">
+      <img src={image} alt={name} />
+      <h2>{name}</h2>
+      <p>${price}</p>
+      <p>{info}</p>
     </div>
   );
 }

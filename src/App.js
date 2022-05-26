@@ -12,10 +12,11 @@ function App() {
     setLoading(true);
     try {
       const response = await fetch(url);
-      const tours = await response.json();
+      const data = await response.json();
+      // console.log(data);
 
       setLoading(false);
-      setTours(tours);
+      setTours(data);
     } catch (err) {
       setLoading(false);
       console.log(err);

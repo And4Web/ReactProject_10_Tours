@@ -2,13 +2,14 @@ import React from "react";
 import Tour from "./Tour";
 
 function Tours({ tours }) {
+  // console.log(tours);
   return (
     <div>
       <div className="tours">
         <h1>Tours Explorer</h1>
         <div className="tour-info">
           {tours.map((tour) => {
-            return <Tour key={tour.id} {...tours} />;
+            return <Tour key={tour.id} {...tour} />;
           })}
         </div>
       </div>
