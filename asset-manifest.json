@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ReactProject_10_Tours/static/css/main.073c9b0a.css",
+    "main.js": "/ReactProject_10_Tours/static/js/main.4b916f86.js",
+    "static/js/787.e583541c.chunk.js": "/ReactProject_10_Tours/static/js/787.e583541c.chunk.js",
+    "index.html": "/ReactProject_10_Tours/index.html",
+    "main.073c9b0a.css.map": "/ReactProject_10_Tours/static/css/main.073c9b0a.css.map",
+    "main.4b916f86.js.map": "/ReactProject_10_Tours/static/js/main.4b916f86.js.map",
+    "787.e583541c.chunk.js.map": "/ReactProject_10_Tours/static/js/787.e583541c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.4b916f86.js"
+  ]
+}
